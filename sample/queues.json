@@ -1,0 +1,16 @@
+{
+  "budget": 2,
+  "bad_task_code": "E_BAD_TASK",
+  "bad_prio_code": "E_BAD_PRIO",
+  "dup_code": "E_DUP_TASK",
+  "empty_code": "E_EMPTY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "waiting": [], "pops": [], "ticks": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "add", "task": 1, "prio": 5 },
+    { "id": 2, "kind": "add", "task": 2, "prio": 9 },
+    { "id": 3, "kind": "tick" },
+    { "id": 4, "kind": "pick" },
+    { "id": 5, "kind": "pick" }
+  ]
+}
